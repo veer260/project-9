@@ -1,0 +1,324 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@600;700;800&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------------NAVBAR------------------------ */
+.nav-section{
+  background-color: rgb(52, 52, 243);
+  display: flex;
+  color: white;
+  justify-content: right;
+  padding: 20px 40px;
+  align-items: center;
+  column-gap: 20px;
+  font-size: 0.7rem;
+
+}
+
+.nav-item-active{
+  background-color: white;
+  color: blue;
+  padding: 3px;
+}
+
+.after-nav{
+  display: flex;
+  background-color: rgb(52, 52, 243);
+  flex-direction: column;
+  padding: 0 40px;
+  padding-bottom: 60px;
+  color: white;
+  line-height: 50px;
+}
+
+.logo{
+  margin-bottom: 50px;
+}
+
+.header-image{
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+
+
+
+/* _______________________________COMPANIES_____________ */
+.companies{
+  background-color: #F7F7F7;
+  display: flex;
+  font-family: 'Righteous';
+  padding: 30px 40px;
+  column-gap: 30px;
+  padding-bottom: 100px;
+}
+
+.company-items{
+  text-decoration: none;
+  font-family: 'Righteous';
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+
+
+/* _______________________________API Section____________________ */
+.api{
+  background-color: #F7F7F7;
+}
+.api-heading{
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 2rem
+}
+
+.cards{
+  display: flex;
+  padding: 40px 60px 20px 40px;
+  column-gap: 100px;
+  background-color: #F7F7F7;
+}
+
+.card-active{
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: -30px;
+}
+.card-head-active{
+  color: blueviolet;
+}
+
+.card-head{
+  font-size: 1rem;
+}
+
+.card-body{
+  font-size: 0.7rem;
+}
+
+
+
+/* _____________________________blog-section_________________________ */
+.blog-headings{
+  display: flex;
+  align-content: flex-end;
+  padding: 30px 40px 0px 40px;
+  background-color: #F7F7F7;
+  /* padding-bottom: -15px; */
+  /* margin-bottom: -5px; */
+  /* height: 325px; */
+
+}
+
+.blog-heading{
+  align-self: baseline;
+  margin-right: auto;
+}
+
+.blog-heading-right{
+  align-self: baseline;
+  margin-top: auto;
+  margin-bottom: 12px;
+  font-weight: 900;
+  color: rgb(97, 57, 255);
+}
+
+.blog-cards{
+  background-color: #F7F7F7;
+  display: flex;
+  padding: 20px 40px 40px 40px;
+  column-gap: 30px;
+}
+
+.blog-card{
+  flex: 1;
+  display: flex;
+  column-gap: 50px;
+  background-color: white;
+}
+
+.blog-text{
+  padding-top: 40px;
+}
+
+h6{
+  color: rgb(97, 57, 255);
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+small{
+  font-size: 0.7rem;
+}
+
+.blog-author-text{
+  font-size: 0.7rem;
+  margin-left: 70px;
+  /* margin-bottom: 70px; */
+}
+
+.blog-card-bottom-image{
+  position: relative;
+  top: 50px;
+}
+
+
+/* ________________________________FAQ-Section__________________________ */
+.faq-section{
+  display: flex;
+  padding: 0 40px;
+  background-color: #d9d7f3;
+  column-gap: 40px;
+  /* padding-bottom: -5px; */
+  height: 324px;
+}
+
+.faq-content{
+  display: flex;
+  flex-direction: column;
+  padding-right: 150px;
+  padding-top: 60px;
+}
+
+h2{
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+h4{
+  margin-top: 20px;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.bottom-text{
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-btn{
+  width: 100px;
+  background-color: rgb(99, 61, 251);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 0;
+  font-size: 0.7rem;
+}
+
+
+/* _________________________Download-Section___________________________ */
+.download-section{
+  display: flex;
+  padding: 100px 40px;
+}
+
+.download-content{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  font-weight: 400;
+}
+
+.download-email{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  background-color: #d9d7f3;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  /* text-align: left; */
+  padding-right: 180px;
+}
+
+.download-btn{
+  padding: 10px 15px;
+  background-color: rgb(97, 57, 255);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  position: absolute;
+  right: 170px;
+  top: 1826px;
+}
+
+
+
+
+/* ________________________________Footer-Section___________________________ */
+.footer-section{
+  display: flex;
+  background-color: rgb(97, 57, 255);
+  padding: 40px;
+}
+
+.footer-left{
+  flex: 1;
+}
+
+.list{
+  display: flex;
+  column-gap: 10px;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.list-items{
+  font-size: 0.7rem;
+  color: white;
+  font-weight: 200;
+}
+
+.bar{
+  margin-top: 5px;
+  height: 10px;
+  border-left: solid 2px white;
+}
+
+.first-item{
+  margin-right: 20px;
+}
+
+.footer-right{
+  flex: 1;
+  justify-content: right;
+}
+
+.footer-right-logo{
+  margin-left: 360px;
+  margin-bottom: 40px;
+}
+.footer-logos{
+  margin: 0 10px;
+}
+
+.logos-list{
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+  margin-left: 360px;
+
+}
+
